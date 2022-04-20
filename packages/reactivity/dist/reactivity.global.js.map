@@ -1,0 +1,1 @@
+{"version":3,"file":"reactivity.global.js","sources":["../index.ts"],"sourcesContent":["import { isObject } from \"@vue/shared\";\r\n\r\n\r\nconsole.log('object');"],"names":[],"mappings":";;;CAGA,OAAO,CAAC,GAAG,CAAC,QAAQ,CAAC;;;;;;"}
