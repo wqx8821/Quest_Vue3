@@ -1,0 +1,111 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "workspacePrefix": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT"
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "v3tt",
+      "private": true,
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+      },
+      "keywords": [],
+      "author": "",
+      "license": "ISC"
+    },
+    "prefix": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\ERHA\\.pnpm-store\\v3",
+    "virtualStoreDir": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT",
+    "stage": "resolution_started"
+  },
+  "4 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/rollup-plugin-typescript2/0.31.2",
+    "wanted": {
+      "dependentId": ".",
+      "name": "rollup-plugin-typescript2",
+      "rawSpec": "latest"
+    }
+  },
+  "5 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/rollup-plugin-typescript2/0.31.2",
+    "requester": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT",
+    "status": "resolved"
+  },
+  "6 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@rollup/plugin-json/4.1.0",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@rollup/plugin-json",
+      "rawSpec": "latest"
+    }
+  },
+  "7 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@rollup/plugin-json/4.1.0",
+    "requester": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT",
+    "status": "resolved"
+  },
+  "8 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/minimist/1.2.6",
+    "wanted": {
+      "dependentId": ".",
+      "name": "minimist",
+      "rawSpec": "latest"
+    }
+  },
+  "9 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimist/1.2.6",
+    "requester": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT",
+    "status": "resolved"
+  },
+  "10 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@rollup/plugin-json/4.1.0",
+    "requester": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT",
+    "status": "found_in_store"
+  },
+  "11 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/minimist/1.2.6",
+    "requester": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT",
+    "status": "found_in_store"
+  },
+  "12 debug pnpm:_dependency_resolved": {
+    "resolution": "registry.npmjs.org/@rollup/plugin-node-resolve/13.2.1",
+    "wanted": {
+      "dependentId": ".",
+      "name": "@rollup/plugin-node-resolve",
+      "rawSpec": "latest"
+    }
+  },
+  "13 debug pnpm:progress": {
+    "packageId": "registry.npmjs.org/@rollup/plugin-node-resolve/13.2.1",
+    "requester": "C:\\Users\\ERHA\\Desktop\\VVTP\\V3TT",
+    "status": "resolved"
+  },
+  "14 error pnpm": {
+    "code": "ERR_PNPM_FETCH_404",
+    "hint": "@rollup/plugin-common.js is not in the npm registry, or you have no permission to fetch it.\n\nNo authorization header was set for the request.",
+    "request": {
+      "url": "https://registry.npmjs.org/@rollup%2Fplugin-common.js"
+    },
+    "response": {
+      "size": 0
+    },
+    "pkgName": "@rollup/plugin-common.js",
+    "pkgsStack": [],
+    "err": {
+      "name": "pnpm",
+      "message": "GET https://registry.npmjs.org/@rollup%2Fplugin-common.js: Not Found - 404",
+      "code": "ERR_PNPM_FETCH_404",
+      "stack": "pnpm: GET https://registry.npmjs.org/@rollup%2Fplugin-common.js: Not Found - 404\n    at RetryOperation._fn (C:\\Users\\ERHA\\AppData\\Roaming\\npm\\node_modules\\pnpm\\dist\\pnpm.cjs:85680:19)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)"
+    }
+  }
+}
