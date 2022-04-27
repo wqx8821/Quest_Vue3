@@ -51,7 +51,7 @@ function createConfig(format, output) {
     external = [...Object.keys(pkg.dependencies)]
   }
   return {
-    input: resolve('index.ts'),
+    input: resolve('src/index.ts'),
     output,
     external,
     plugins: [
